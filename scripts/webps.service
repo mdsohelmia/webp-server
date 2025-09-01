@@ -6,8 +6,8 @@ After=nginx.target
 [Service]
 Type=simple
 StandardError=journal
-WorkingDirectory=/opt/webps
-ExecStart=/opt/webps/webp-server --config /opt/webps/config.json
+WorkingDirectory=/var/www/html/webp-server
+ExecStart=/var/www/html/webp-server --config /var/www/html/webp-server/config.json
 Restart=always
 RestartSec=3s
 
