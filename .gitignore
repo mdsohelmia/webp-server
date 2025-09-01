@@ -28,3 +28,4 @@ coverage.txt
 /metadata/*
 /.idea/inspectionProfiles/Project_Default.xml
 webp-server
+tmp/*
