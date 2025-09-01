@@ -14,6 +14,7 @@ import (
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/k0kubun/pp/v3"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -59,6 +60,7 @@ func Convert(c *fiber.Ctx) error {
 			MaxHeight: maxHeight,
 		}
 	)
+	pp.Println("Extra Params:", extraParams)
 
 	log.Debugf("Incoming connection from %s %s %s", c.IP(), reqHostname, reqURIwithQuery)
 
