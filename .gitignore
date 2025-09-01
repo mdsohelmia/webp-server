@@ -27,3 +27,4 @@ coverage.txt
 /webp_server_go
 /metadata/*
 /.idea/inspectionProfiles/Project_Default.xml
+webp-server
